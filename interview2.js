@@ -1,12 +1,12 @@
 // // que based on lexical scope, closure, let var const, spread operator , rest operator
-console.log(abc);
-var abc = "hello world"; // undefined
+// console.log(abc);
+// var abc = "hello world"; // undefined
 
-console.log(de);
-let de = "hello js"; // ReferenceError: Cannot access 'de' before initialization
+// console.log(de);
+// let de = "hello js"; // ReferenceError: Cannot access 'de' before initialization
 
-console.log(xyz);
-const xyz = "hello es6"; // ReferenceError: Cannot access 'xyz' before initialization
+// console.log(xyz);
+// const xyz = "hello es6"; // ReferenceError: Cannot access 'xyz' before initialization
 
 function sum(a, b) {
   // que based on curry concept
@@ -280,7 +280,7 @@ id();
 
 //
 let str = "Deepesh kumar mmmmar";
-let arr1 = [];
+
 let arr2 = [];
 str = str.replaceAll(" ", "");
 let str2 = str.split("");
